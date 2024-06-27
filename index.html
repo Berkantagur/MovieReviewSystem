@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="">
+    <title>Movie Review Site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-main">
+                <img src="Images/MovieRiders-Logo.png" alt="">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" id="series">Series</a>
+                    </li>
+                    <li>
+                        <a href="#" id="movies">Movies</a>
+                    </li>
+                    <li>
+                        <a href="#" id="kids">Kids</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-user">
+                <input type="text" placeholder="Search..." id="search-input">
+                <img src="Images/UserPP.jpg" alt="">
+                <div class="search">
+                    <!--
+                    <a href="#" class="card">
+                        <img src="Images/Dune-Search-PP.jpg" alt="">
+                        <div class="content">
+                            <h3>Dune: It Begins </h3>
+                            <p>Sci-Fiction, 2021 , <span>IMDb</span><i class="bi bi-star-fill"></i> 8.0</p>
+                        </div>
+                    </a>
+                    -->
+                </div>
+            </div>
+        </nav>
+        <div class="contents">
+            <h1 id="title">The Matrix</h1>
+            <p id="detail">The Matrix depicts a dystopian future in which humanity is unknowingly trapped inside the Matrix, a simulated reality that intelligent machines have created to distract humans while using their bodies as an energy source. When computer programmer Thomas Anderson, under the hacker alias "Neo", uncovers the truth, he joins a rebellion against the machines along with other people who have been freed from the Matrix.</p>
+            <div class="details">
+                <h5 id="genre_">Science Fiction</h5>
+                <h4 id="date_">1999</h4>
+                <h3 id="rate"><span>IMDb</span><i class="bi bi-star-fill"></i> 8.7</h3>
+            </div>
+            <div class="buttons">
+                <a href="#" id="more">More Info <i class="bi bi-book"></i></a>
+            </div>
+        </div>
+        <section>
+            <h4>Popular</h4>
+            <i class="bi bi-arrow-left-circle" id="left_arrow"></i>
+            <i class="bi bi-arrow-right-circle" id="right_arrow"></i>
+            <div class="cards">
+                <!--<a href="#" class="card">
+                    <img src="Images/Dune-Search-PP.jpg" alt="" class="poster">
+                    <div class="rstcard">
+                        <img src="Images/Dune-Slider1.png" alt="">
+                        <div class="content">
+                            <h4>Dune: It Begins </h4>
+                            <div class="sub">
+                                <p>Sci-Fiction, 2021 </p>
+                                <h3><span>IMDb</span><i class="bi bi-star-fill"></i> 8.0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </a> -->
+            </div>
+        </section>
+        <video src="Videos/Dune_Trailer.mp4" autoplay muted></video>
+    </header>
+    <script src="main.js"></script>    
+</body>
+</html>
